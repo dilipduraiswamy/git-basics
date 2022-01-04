@@ -16,7 +16,8 @@
 - get more info about particular commit ( git show "COMMIT_ID" )
 - get changed differences ( git diff )
 - Ammend commit/rename last commit ( git commit --amend -m "MESSAGE_TO_COMMIT")
-- 
+- Push with branch ( git push -u origin BRANCH_NAME )
+- Push ( git push )
 
 ### git configure
 - Config username ( git config --global user.name "REPLACE_YOUR_GIT_USERNAME" )
