@@ -71,5 +71,11 @@
 ``` git rebase --continue ```
 ### Force push after conflict and rebase done 
 ``` git push -f ```
+### Stash the changes and rebase ( to skip additonal merge commit )
+``` git stash ```
+
+``` git pull --rebase <remote> <branch> i.e git pull --rebase origin remotebranchname ```
+
+``` git stash apply ```
 
 
