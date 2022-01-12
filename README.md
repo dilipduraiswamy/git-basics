@@ -33,6 +33,9 @@
 - Rebase branch ( git pull -r origin REBASE_BRANCH_NAME ) i.e. main
 - Rebase after conflict resolve ( git rebase --continue )
 - Force push after conflict and rebase done ( git push -f )
+- Stash the changes ( git stash )
+- Rebase changes after stash (git pull --rebase <remote> <branch> i.e git pull --rebase origin remotebranchname )
+- After changes pulled do stash apply ( git stash apply )
 
 ### git configure
 - Config username ( git config --global user.name "REPLACE_YOUR_GIT_USERNAME" )
