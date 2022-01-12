@@ -77,5 +77,6 @@
 ``` git pull --rebase <remote> <branch> i.e git pull --rebase origin remotebranchname ```
 
 ``` git stash apply ```
-
+### Auto Stash
+``` git pull --rebase --autostash ```
 
