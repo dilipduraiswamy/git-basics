@@ -36,6 +36,7 @@
 - Stash the changes ( git stash )
 - Rebase changes after stash (git pull --rebase <remote> <branch> i.e git pull --rebase origin remotebranchname )
 - After changes pulled do stash apply ( git stash apply )
+- Autostash ( git pull --rebase --autostash )
 
 ### git configure
 - Config username ( git config --global user.name "REPLACE_YOUR_GIT_USERNAME" )
