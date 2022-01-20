@@ -19,7 +19,7 @@
 - get more info about particular commit ( git show "COMMIT_ID" )
 - get changed differences ( git diff )
 - Ammend commit/rename last commit ( git commit --amend -m "MESSAGE_TO_COMMIT")
-- Push with branch ( git push -u origin BRANCH_NAME )
+- Push with branch ( git push -u origin BRANCH_NAME ) 
 - Push ( git push )
 - Check current branch ( git branch )
 - Check remote branch ( git branch -r )
